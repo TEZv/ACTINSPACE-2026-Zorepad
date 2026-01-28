@@ -1,0 +1,14 @@
+/home/lush/ACTINSPACE-2026-Zorepad/bin/Release/net10.0/linux-x64/publish/ACTINSPACE-2026-Zorepad
+/home/lush/ACTINSPACE-2026-Zorepad/bin/Release/net10.0/linux-x64/publish/appsettings.Development.json
+/home/lush/ACTINSPACE-2026-Zorepad/bin/Release/net10.0/linux-x64/publish/appsettings.json
+/home/lush/ACTINSPACE-2026-Zorepad/bin/Release/net10.0/linux-x64/publish/ACTINSPACE-2026-Zorepad.dll
+/home/lush/ACTINSPACE-2026-Zorepad/bin/Release/net10.0/linux-x64/publish/ACTINSPACE-2026-Zorepad.deps.json
+/home/lush/ACTINSPACE-2026-Zorepad/bin/Release/net10.0/linux-x64/publish/ACTINSPACE-2026-Zorepad.runtimeconfig.json
+/home/lush/ACTINSPACE-2026-Zorepad/bin/Release/net10.0/linux-x64/publish/ACTINSPACE-2026-Zorepad.pdb
+/home/lush/ACTINSPACE-2026-Zorepad/bin/Release/net10.0/linux-x64/publish/Google.Protobuf.dll
+/home/lush/ACTINSPACE-2026-Zorepad/bin/Release/net10.0/linux-x64/publish/Grpc.AspNetCore.Server.dll
+/home/lush/ACTINSPACE-2026-Zorepad/bin/Release/net10.0/linux-x64/publish/Grpc.AspNetCore.Server.ClientFactory.dll
+/home/lush/ACTINSPACE-2026-Zorepad/bin/Release/net10.0/linux-x64/publish/Grpc.Core.Api.dll
+/home/lush/ACTINSPACE-2026-Zorepad/bin/Release/net10.0/linux-x64/publish/Grpc.Net.Client.dll
+/home/lush/ACTINSPACE-2026-Zorepad/bin/Release/net10.0/linux-x64/publish/Grpc.Net.ClientFactory.dll
+/home/lush/ACTINSPACE-2026-Zorepad/bin/Release/net10.0/linux-x64/publish/Grpc.Net.Common.dll
