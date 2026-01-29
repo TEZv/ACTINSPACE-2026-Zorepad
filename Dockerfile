@@ -22,4 +22,4 @@ COPY --from=build /app/publish .
 # Тут треба вказати ім'я твого DLL файлу!
 # Зазвичай це назва твого проєкту + .dll
 # Наприклад, якщо файл проєкту Zorepad.csproj, то тут буде Zorepad.dll
-ENTRYPOINT ["dotnet", "Zorepad.StellarLibrary.Api.dll"] 
+ENTRYPOINT ["dotnet", "ACTINSPACE-2026-Zorepad.dll"] 
