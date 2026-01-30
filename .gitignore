@@ -7,7 +7,11 @@
 *.suo
 *.user
 *.sln.docstates
-
+data
+obj
+Zorepad-ACTINSPACE-2026-project/bin/*
+Zorepad-ACTINSPACE-2026-project/obj/*
+Shared/*
 # Build results
 
 [Dd]ebug/

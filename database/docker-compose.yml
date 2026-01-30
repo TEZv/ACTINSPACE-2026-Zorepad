@@ -16,15 +16,23 @@ services:
   minio:
     image: quay.io/minio/minio:latest
     container_name: minio
+    depends_on:
+      - timescaledb
     command: server /data --console-address ":9001"
     ports:
       - "9000:9000" # API Port
       - "9001:9001" # Web Console Port
     env_file:
       - .env
+    user: root
     environment:
-      - MINIO_ROOT_USER=${MINIIO_USER}
-      - MINIO_ROOT_PASSWORD=${MINIIO_PASS}
+      - MINIO_ROOT_USER=${MINIO_USER}
+      - MINIO_ROOT_PASSWORD=${MINIO_PASS}
+      - MINIO_SERVER_URL=http://172.16.41.78:9000
+      - MINIO_NOTIFY_POSTGRES_ENABLE_PRIMARY=on
+      - MINIO_NOTIFY_POSTGRES_CONNECTION_STRING_PRIMARY=host=timescaledb port=5432 user=postgres password=${POSTGRES_PASS} dbname=${POSTGRES_DB} sslmode=disable
+      - MINIO_NOTIFY_POSTGRES_FORMAT_PRIMARY=access
+      - MINIO_NOTIFY_POSTGRES_TABLE_PRIMARY=minio_events
     volumes:
       # The ':Z' flag is REQUIRED on Fedora/SELinux to allow write permissions
       - ./data:/data:Z
