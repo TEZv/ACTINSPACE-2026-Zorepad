@@ -1,0 +1,338 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Zorepad-ACTINSPACE-2026-project/1.0.0": {
+        "dependencies": {
+          "Grpc.AspNetCore": "2.64.0",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "10.0.0",
+          "Npgsql.EntityFrameworkCore.PostgreSQL.NetTopologySuite": "10.0.0",
+          "Shared": "1.0.0"
+        },
+        "runtime": {
+          "Zorepad-ACTINSPACE-2026-project.dll": {}
+        }
+      },
+      "Google.Protobuf/3.33.5": {
+        "runtime": {
+          "lib/net5.0/Google.Protobuf.dll": {
+            "assemblyVersion": "3.33.5.0",
+            "fileVersion": "3.33.5.0"
+          }
+        }
+      },
+      "Grpc.AspNetCore/2.64.0": {
+        "dependencies": {
+          "Google.Protobuf": "3.33.5",
+          "Grpc.AspNetCore.Server.ClientFactory": "2.64.0"
+        }
+      },
+      "Grpc.AspNetCore.Server/2.64.0": {
+        "dependencies": {
+          "Grpc.Net.Common": "2.76.0"
+        },
+        "runtime": {
+          "lib/net9.0/Grpc.AspNetCore.Server.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.64.0.0"
+          }
+        }
+      },
+      "Grpc.AspNetCore.Server.ClientFactory/2.64.0": {
+        "dependencies": {
+          "Grpc.AspNetCore.Server": "2.64.0",
+          "Grpc.Net.ClientFactory": "2.64.0"
+        },
+        "runtime": {
+          "lib/net9.0/Grpc.AspNetCore.Server.ClientFactory.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.64.0.0"
+          }
+        }
+      },
+      "Grpc.Core.Api/2.76.0": {
+        "runtime": {
+          "lib/netstandard2.1/Grpc.Core.Api.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.76.0.0"
+          }
+        }
+      },
+      "Grpc.Net.Client/2.76.0": {
+        "dependencies": {
+          "Grpc.Net.Common": "2.76.0"
+        },
+        "runtime": {
+          "lib/net10.0/Grpc.Net.Client.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.76.0.0"
+          }
+        }
+      },
+      "Grpc.Net.ClientFactory/2.64.0": {
+        "dependencies": {
+          "Grpc.Net.Client": "2.76.0"
+        },
+        "runtime": {
+          "lib/net8.0/Grpc.Net.ClientFactory.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.64.0.0"
+          }
+        }
+      },
+      "Grpc.Net.Common/2.76.0": {
+        "dependencies": {
+          "Grpc.Core.Api": "2.76.0"
+        },
+        "runtime": {
+          "lib/net10.0/Grpc.Net.Common.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.76.0.0"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore/10.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Abstractions": "10.0.0"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.EntityFrameworkCore.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.25.52411"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Abstractions/10.0.0": {
+        "runtime": {
+          "lib/net10.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.25.52411"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Relational/10.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "10.0.0"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.EntityFrameworkCore.Relational.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.25.52411"
+          }
+        }
+      },
+      "NetTopologySuite/2.6.0": {
+        "runtime": {
+          "lib/netstandard2.1/NetTopologySuite.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "NetTopologySuite.IO.PostGis/2.1.0": {
+        "dependencies": {
+          "NetTopologySuite": "2.6.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/NetTopologySuite.IO.PostGis.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Npgsql/10.0.0": {
+        "runtime": {
+          "lib/net10.0/Npgsql.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.0.0"
+          }
+        }
+      },
+      "Npgsql.EntityFrameworkCore.PostgreSQL/10.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "10.0.0",
+          "Microsoft.EntityFrameworkCore.Relational": "10.0.0",
+          "Npgsql": "10.0.0"
+        },
+        "runtime": {
+          "lib/net10.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.0.0"
+          }
+        }
+      },
+      "Npgsql.EntityFrameworkCore.PostgreSQL.NetTopologySuite/10.0.0": {
+        "dependencies": {
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "10.0.0",
+          "Npgsql.NetTopologySuite": "10.0.0"
+        },
+        "runtime": {
+          "lib/net10.0/Npgsql.EntityFrameworkCore.PostgreSQL.NetTopologySuite.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.0.0"
+          }
+        }
+      },
+      "Npgsql.NetTopologySuite/10.0.0": {
+        "dependencies": {
+          "NetTopologySuite": "2.6.0",
+          "NetTopologySuite.IO.PostGis": "2.1.0",
+          "Npgsql": "10.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/Npgsql.NetTopologySuite.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.0.0"
+          }
+        }
+      },
+      "Shared/1.0.0": {
+        "dependencies": {
+          "Google.Protobuf": "3.33.5",
+          "Grpc.Net.Client": "2.76.0"
+        },
+        "runtime": {
+          "Shared.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Zorepad-ACTINSPACE-2026-project/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Google.Protobuf/3.33.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XEzLpCTosZb5I6eGSPn7rAES0VfkJkn3Cqydh0W39POdZwkdhPhOmAROTFJF9g0ardst4ulNXRm/q/iXwNu+Qw==",
+      "path": "google.protobuf/3.33.5",
+      "hashPath": "google.protobuf.3.33.5.nupkg.sha512"
+    },
+    "Grpc.AspNetCore/2.64.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+UX5rIy4c4kFJv1WIXONG3sgn9oHN4epO3EILYAGbh6ZCZWdedK/uMpRPal+NuxYi+YDAILksiIsYRTmEbiNOQ==",
+      "path": "grpc.aspnetcore/2.64.0",
+      "hashPath": "grpc.aspnetcore.2.64.0.nupkg.sha512"
+    },
+    "Grpc.AspNetCore.Server/2.64.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Dxra1DeDa/57pcembSG8pA7oyD3uCH+gv1+3LJpFzCQTE5F0DG+VqPh/dZph62WWT5kPMYSqF1ezS+9FrFZmGA==",
+      "path": "grpc.aspnetcore.server/2.64.0",
+      "hashPath": "grpc.aspnetcore.server.2.64.0.nupkg.sha512"
+    },
+    "Grpc.AspNetCore.Server.ClientFactory/2.64.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-J8DXFn/oT1yn+B3TJWnoygO+7S+WqUo47K43LgvtkcXbtkcJs246lYLPkcy09bjoCDFLD9u9G5FYtPF5i+W9Kg==",
+      "path": "grpc.aspnetcore.server.clientfactory/2.64.0",
+      "hashPath": "grpc.aspnetcore.server.clientfactory.2.64.0.nupkg.sha512"
+    },
+    "Grpc.Core.Api/2.76.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cSxC2tdnFdXXuBgIn1pjc4YBx7LXTCp4M0qn+SMBS35VWZY+cEQYLWTBDDhdBH1HzU7BV+ncVZlniGQHMpRJKQ==",
+      "path": "grpc.core.api/2.76.0",
+      "hashPath": "grpc.core.api.2.76.0.nupkg.sha512"
+    },
+    "Grpc.Net.Client/2.76.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-K1oldmqw2+Gn69nGRzZLhqSiUZwelX1GrBu/cUl9wNf1C0uB61vFS6JcxUUv9P8VoUJhFsmV44JA6lI2EUt4xw==",
+      "path": "grpc.net.client/2.76.0",
+      "hashPath": "grpc.net.client.2.76.0.nupkg.sha512"
+    },
+    "Grpc.Net.ClientFactory/2.64.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-k/CACy93x7+/qKXao4SAWqO7vnqt7GxyPdKUe7OJpbH8mxkONJBelIE9M5sQwHRo1Y/R9bGR2QqXz4u1SZEsNA==",
+      "path": "grpc.net.clientfactory/2.64.0",
+      "hashPath": "grpc.net.clientfactory.2.64.0.nupkg.sha512"
+    },
+    "Grpc.Net.Common/2.76.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bZpiMVYgvpB44/wBh1RotrkqC7bg2FOasLri2GhR3hMKyzsiTxCoDE49YjPrJeFc4RW0wS8u+EInI09sjxVFRA==",
+      "path": "grpc.net.common/2.76.0",
+      "hashPath": "grpc.net.common.2.76.0.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore/10.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hHa2amRjMyBLUH/KTML6FgIAhZ0VFYkhCKwWEax0rO6iNeM1P5MflyeQLE5dniSIOZHc3Oqyv5UIyTFO4e1Auw==",
+      "path": "microsoft.entityframeworkcore/10.0.0",
+      "hashPath": "microsoft.entityframeworkcore.10.0.0.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Abstractions/10.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-C+TT9k7f1GQ8agOfV512K9iwrzi76RXVSDiLx+iWC9pz3QhEpSF1Dyk+FpVvd8ULQ+rqymfM8KQ7g48ttQVyMg==",
+      "path": "microsoft.entityframeworkcore.abstractions/10.0.0",
+      "hashPath": "microsoft.entityframeworkcore.abstractions.10.0.0.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Relational/10.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-A3MX1ee7RDxWCUdx/KqP+74fbksz0UIhkVZh56YHvbPkEKsffCXgHU3LGkRDwqR/MrBNWLCWC/IVX79tzM30ZA==",
+      "path": "microsoft.entityframeworkcore.relational/10.0.0",
+      "hashPath": "microsoft.entityframeworkcore.relational.10.0.0.nupkg.sha512"
+    },
+    "NetTopologySuite/2.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1B1OTacTd4QtFyBeuIOcThwSSLUdRZU3bSFIwM8vk36XiZlBMi3K36u74e4OqwwHRHUuJC1PhbDx4hyI266X1Q==",
+      "path": "nettopologysuite/2.6.0",
+      "hashPath": "nettopologysuite.2.6.0.nupkg.sha512"
+    },
+    "NetTopologySuite.IO.PostGis/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3W8XTFz8iP6GQ5jDXK1/LANHiU+988k1kmmuPWNKcJLpmSg6CvFpbTpz+s4+LBzkAp64wHGOldSlkSuzYfrIKA==",
+      "path": "nettopologysuite.io.postgis/2.1.0",
+      "hashPath": "nettopologysuite.io.postgis.2.1.0.nupkg.sha512"
+    },
+    "Npgsql/10.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xZAYhPOU2rUIFpV48xsqhCx9vXs6Y+0jX2LCoSEfDFYMw9jtAOUk3iQsCnDLrFIv9NT3JGMihn7nnuZsPKqJmA==",
+      "path": "npgsql/10.0.0",
+      "hashPath": "npgsql.10.0.0.nupkg.sha512"
+    },
+    "Npgsql.EntityFrameworkCore.PostgreSQL/10.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-E2+uSWxSB8LdsUVwPaqRWOcGOP92biry2JEwc0KJMdLJF+aZdczeIdEXVwEyv4nSVMQJH0o8tLhyAMiR6VF0lw==",
+      "path": "npgsql.entityframeworkcore.postgresql/10.0.0",
+      "hashPath": "npgsql.entityframeworkcore.postgresql.10.0.0.nupkg.sha512"
+    },
+    "Npgsql.EntityFrameworkCore.PostgreSQL.NetTopologySuite/10.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dSo2/nHugxyppIvEOjI2nmEHRZIQFCBrHcLe4gq+ABPp78tzbTo8cz18LOk6RpJlWFUdHyuaqvsYvVoOTYANHg==",
+      "path": "npgsql.entityframeworkcore.postgresql.nettopologysuite/10.0.0",
+      "hashPath": "npgsql.entityframeworkcore.postgresql.nettopologysuite.10.0.0.nupkg.sha512"
+    },
+    "Npgsql.NetTopologySuite/10.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Psv48pkCHyN2ovbEQYIzKo0CAjXKXWy0pJy8HomJFbCTD3AY5J9OOzKNKXUT01W7X7qOYoqBXMxBGW9mnmw0RA==",
+      "path": "npgsql.nettopologysuite/10.0.0",
+      "hashPath": "npgsql.nettopologysuite.10.0.0.nupkg.sha512"
+    },
+    "Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

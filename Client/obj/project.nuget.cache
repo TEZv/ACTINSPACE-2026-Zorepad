@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "a2IIAHhf1Hw=",
+  "success": true,
+  "projectFilePath": "/home/lush/RiderProjects/Zorepad-ACTINSPACE-2026-project/Client/Client.csproj",
+  "expectedPackageFiles": [
+    "/home/lush/.nuget/packages/google.protobuf/3.33.5/google.protobuf.3.33.5.nupkg.sha512",
+    "/home/lush/.nuget/packages/grpc.core.api/2.76.0/grpc.core.api.2.76.0.nupkg.sha512",
+    "/home/lush/.nuget/packages/grpc.net.client/2.76.0/grpc.net.client.2.76.0.nupkg.sha512",
+    "/home/lush/.nuget/packages/grpc.net.common/2.76.0/grpc.net.common.2.76.0.nupkg.sha512",
+    "/home/lush/.nuget/packages/microsoft.dotnet.ilcompiler/10.0.2/microsoft.dotnet.ilcompiler.10.0.2.nupkg.sha512",
+    "/home/lush/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "/home/lush/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0/microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "/home/lush/.nuget/packages/microsoft.net.illink.tasks/10.0.2/microsoft.net.illink.tasks.10.0.2.nupkg.sha512",
+    "/home/lush/.nuget/packages/runtime.linux-x64.microsoft.dotnet.ilcompiler/10.0.2/runtime.linux-x64.microsoft.dotnet.ilcompiler.10.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

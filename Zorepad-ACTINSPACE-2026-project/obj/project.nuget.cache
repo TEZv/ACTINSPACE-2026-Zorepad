@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "dgSpecHash": "4cUzMElFg9s=",
+  "success": true,
+  "projectFilePath": "/home/lush/RiderProjects/Zorepad-ACTINSPACE-2026-project/Zorepad-ACTINSPACE-2026-project/Zorepad-ACTINSPACE-2026-project.csproj",
+  "expectedPackageFiles": [
+    "/home/lush/.nuget/packages/google.protobuf/3.33.5/google.protobuf.3.33.5.nupkg.sha512",
+    "/home/lush/.nuget/packages/grpc.aspnetcore/2.64.0/grpc.aspnetcore.2.64.0.nupkg.sha512",
+    "/home/lush/.nuget/packages/grpc.aspnetcore.server/2.64.0/grpc.aspnetcore.server.2.64.0.nupkg.sha512",
+    "/home/lush/.nuget/packages/grpc.aspnetcore.server.clientfactory/2.64.0/grpc.aspnetcore.server.clientfactory.2.64.0.nupkg.sha512",
+    "/home/lush/.nuget/packages/grpc.core.api/2.76.0/grpc.core.api.2.76.0.nupkg.sha512",
+    "/home/lush/.nuget/packages/grpc.net.client/2.76.0/grpc.net.client.2.76.0.nupkg.sha512",
+    "/home/lush/.nuget/packages/grpc.net.clientfactory/2.64.0/grpc.net.clientfactory.2.64.0.nupkg.sha512",
+    "/home/lush/.nuget/packages/grpc.net.common/2.76.0/grpc.net.common.2.76.0.nupkg.sha512",
+    "/home/lush/.nuget/packages/grpc.tools/2.64.0/grpc.tools.2.64.0.nupkg.sha512",
+    "/home/lush/.nuget/packages/microsoft.entityframeworkcore/10.0.0/microsoft.entityframeworkcore.10.0.0.nupkg.sha512",
+    "/home/lush/.nuget/packages/microsoft.entityframeworkcore.abstractions/10.0.0/microsoft.entityframeworkcore.abstractions.10.0.0.nupkg.sha512",
+    "/home/lush/.nuget/packages/microsoft.entityframeworkcore.analyzers/10.0.0/microsoft.entityframeworkcore.analyzers.10.0.0.nupkg.sha512",
+    "/home/lush/.nuget/packages/microsoft.entityframeworkcore.relational/10.0.0/microsoft.entityframeworkcore.relational.10.0.0.nupkg.sha512",
+    "/home/lush/.nuget/packages/nettopologysuite/2.6.0/nettopologysuite.2.6.0.nupkg.sha512",
+    "/home/lush/.nuget/packages/nettopologysuite.io.postgis/2.1.0/nettopologysuite.io.postgis.2.1.0.nupkg.sha512",
+    "/home/lush/.nuget/packages/npgsql/10.0.0/npgsql.10.0.0.nupkg.sha512",
+    "/home/lush/.nuget/packages/npgsql.entityframeworkcore.postgresql/10.0.0/npgsql.entityframeworkcore.postgresql.10.0.0.nupkg.sha512",
+    "/home/lush/.nuget/packages/npgsql.entityframeworkcore.postgresql.nettopologysuite/10.0.0/npgsql.entityframeworkcore.postgresql.nettopologysuite.10.0.0.nupkg.sha512",
+    "/home/lush/.nuget/packages/npgsql.nettopologysuite/10.0.0/npgsql.nettopologysuite.10.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
